@@ -9,7 +9,7 @@ cask "heard" do
   homepage "https://github.com/execsumo/heard"
 
   # macOS 15 Sequoia or later required (uses CATapDescription process tap)
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Heard.app"
 
