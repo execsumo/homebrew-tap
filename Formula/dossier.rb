@@ -6,21 +6,21 @@ class Dossier < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/execsumo/dossiers/releases/download/v#{version}/dossier-darwin-arm64"
-      sha256 "c2e18ae035bdd588b382815a3e2c4d590957b59786c6613f47e308eb5128d899"
+      url "https://github.com/execsumo/dossiers/releases/download/v0.1.11/dossier-darwin-arm64"
+      sha256 "382b2a6a7a1f2d6d0704ff6228b0d7297ba7a00c5bbe1505ae48f5d8ab373381"
     else
-      url "https://github.com/execsumo/dossiers/releases/download/v#{version}/dossier-darwin-amd64"
-      sha256 "f5061303a1c1d0d6b9ebe890860c11db410c8dad91c047ba5bffe1bd79b73af3"
+      url "https://github.com/execsumo/dossiers/releases/download/v0.1.11/dossier-darwin-amd64"
+      sha256 "b8f4851789b701545bac137461c97e352539f34481bb070f47e79893d15e747a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/execsumo/dossiers/releases/download/v#{version}/dossier-linux-arm64"
-      sha256 "e521e5182c8e68e11e8fd0f3d78539312ffb2d303ac44169202a95ae86b881be"
+      url "https://github.com/execsumo/dossiers/releases/download/v0.1.11/dossier-linux-arm64"
+      sha256 "f61382d2172bcf9fe443e26182ad5e169d66df72836c003b74a72066b0c1a35a"
     else
-      url "https://github.com/execsumo/dossiers/releases/download/v#{version}/dossier-linux-amd64"
-      sha256 "70314a649cdd6ac46486e731399689c2524147020c0f296b0b725fb069296208"
+      url "https://github.com/execsumo/dossiers/releases/download/v0.1.11/dossier-linux-amd64"
+      sha256 "1b97a213e8d76f33b20321bf91e645c0d895392220a3cce7e9c51b36c4972759"
     end
   end
 
