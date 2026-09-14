@@ -2,17 +2,17 @@ class HarnessAssetManager < Formula
   desc "Local app and browser UI for universal skill management across agent harnesses"
   homepage "https://github.com/execsumo/harness-asset-manager"
   license "MIT"
-  version "0.5.8"
+  version "0.5.9"
   preserve_rpath
 
   on_arm do
-    url "https://github.com/execsumo/harness-asset-manager/releases/download/v0.5.8/harness-asset-manager-v0.5.8-darwin-arm64.tar.gz"
-    sha256 "67c5e031826b6e10f35f829bb954a503cc845a89e6af0fa0ac247525d10115e3"
+    url "https://github.com/execsumo/harness-asset-manager/releases/download/v0.5.9/harness-asset-manager-v0.5.9-darwin-arm64.tar.gz"
+    sha256 "959740c4472f2877435754c356aa7511df51954ae54d14670331e9b9b74c3bfa"
   end
 
   on_intel do
-    url "https://github.com/execsumo/harness-asset-manager/releases/download/v0.5.8/harness-asset-manager-v0.5.8-darwin-x64.tar.gz"
-    sha256 "0ecb9f1e8d83918bc107123aef51e9abd1fe403828067700d6f90a795bf26d4f"
+    url "https://github.com/execsumo/harness-asset-manager/releases/download/v0.5.9/harness-asset-manager-v0.5.9-darwin-x64.tar.gz"
+    sha256 "44170fc8a93dee9a0e10f3efde46a7fa5e71c1bff5a0343d87e32ba6d573c8f9"
   end
 
   def install
@@ -31,6 +31,6 @@ class HarnessAssetManager < Formula
 
   test do
     output = shell_output("#{bin}/harnessam --version")
-    assert_match "0.5.8", output
+    assert_match "0.5.9", output
   end
 end
