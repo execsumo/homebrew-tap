@@ -1,26 +1,26 @@
 class Dossier < Formula
   desc "Local durable memory layer for agent-driven work in Claude Code"
   homepage "https://github.com/execsumo/dossier"
-  version "0.2.9"
+  version "0.2.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/execsumo/dossier/releases/download/v0.2.9/dossier-darwin-arm64"
-      sha256 "c60e39671bf7d8ced8520ff5e77ec04f5199b47b731eb46166e3ffe0443f1615"
+      url "https://github.com/execsumo/dossier/releases/download/v0.2.10/dossier-darwin-arm64"
+      sha256 "bbc5c5727fa60c003e973c9eb511ce8ef05a157f7ffbd6f65eb1eea8938e09fa"
     else
-      url "https://github.com/execsumo/dossier/releases/download/v0.2.9/dossier-darwin-amd64"
-      sha256 "59fa07a574c52f4063168407999d77b67ac42ebaa6c934c4fd1aec5770980d63"
+      url "https://github.com/execsumo/dossier/releases/download/v0.2.10/dossier-darwin-amd64"
+      sha256 "efe2d79e0b7f7b4cb894a0caa2e1fd0221643cb4de6b2df1df10287c57c59e3d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/execsumo/dossier/releases/download/v0.2.9/dossier-linux-arm64"
-      sha256 "72a028f51e7909c7839162f928a00670a8f5a30ddddbc7e5a0ea47290c9ffcea"
+      url "https://github.com/execsumo/dossier/releases/download/v0.2.10/dossier-linux-arm64"
+      sha256 "072db4857934e62ba99d99707f69061c4e465125e33a172ba21dffdcd1c36c0b"
     else
-      url "https://github.com/execsumo/dossier/releases/download/v0.2.9/dossier-linux-amd64"
-      sha256 "b0ee55179f3b0332080a5f21ef3fcd85ae4c7cb87a51825074bf8b0cb482ce21"
+      url "https://github.com/execsumo/dossier/releases/download/v0.2.10/dossier-linux-amd64"
+      sha256 "a95fb364b26c28492cc5311be240b2f8909d5e8e6d5efafc07a36a78124bd0e1"
     end
   end
 
