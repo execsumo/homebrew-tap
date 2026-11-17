@@ -122,5 +122,7 @@ end
 - Each project repo holds its own `GH_PAT` secret (fine-grained, scoped to this repo,
   Contents: Read/write). There's no way to share one secret across repos on a personal
   GitHub account — generate a fresh token per project.
+- Dotter is an exception until it has release automation: update `Formula/dotter.rb`
+  manually for every dotter release using the tagged source tarball and its SHA-256.
 - Don't rename this tap again without updating every project's workflow that pushes to
   it (search each project repo for `homebrew-tap`).

@@ -1,8 +1,8 @@
 class Dotter < Formula
   desc "Deliberately boring dotfiles manager: plain bash, git, and symlinks"
   homepage "https://github.com/execsumo/dotter"
-  url "https://github.com/execsumo/dotter/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "1bd15cd26fe1d3792ff31d148a25d32dd683274429ee5ad266ebe9bae3d26570"
+  url "https://github.com/execsumo/dotter/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "23143b7b0bc44b8aac1c296285baf1946229561b321bb2cb115790ed88b6fb5e"
   license "MIT"
 
   depends_on "git"
